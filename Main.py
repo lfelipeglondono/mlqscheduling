@@ -8,9 +8,5 @@ def main():
     scheduler.load_program(program)
     scheduler.mlq()
     scheduler.write_results()
-  # scheduler = ProcessScheduler()
-  # scheduler.load_program('mlq025.txt')
-  # scheduler.mlq()
-  # scheduler.write_results()
   
 main()
