@@ -55,6 +55,7 @@ class ProcessScheduler:
       file.write(result)
 
   """
+  Method that implements the MLQ manages which policy should be executed according to the current queue.
   """
   def mlq(self) -> None:
     min_at = min(process.at for process in self.__processes)
